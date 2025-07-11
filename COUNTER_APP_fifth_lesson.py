@@ -2,7 +2,7 @@ import gradio as gr
 
 def increment(count):
     new_count = count + 1
-    return new_count, new_count  # return  state &  display values
+    return new_count, new_count  
 
 def decrement(count):
     new_count = count - 1
